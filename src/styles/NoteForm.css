@@ -1,0 +1,74 @@
+.keepSectionContainer__note {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 592px;
+  justify-content: space-around;
+  margin-top: 30px;
+  height: 150px;
+  gap: 10px;
+}
+.keepSectionContainer__input-text::placeholder {
+  color: #737373;
+  font-weight: 700;
+  font-size: 14px;
+}
+.keepSectionContainer__input-button:hover {
+  background-color: #e5e5e580;
+  border-radius: 100px;
+}
+.keepSectionContainer__input-text {
+  outline: none;
+}
+.text-content::placeholder {
+  color: #737373;
+  font-weight: 400;
+  font-size: 18px;
+}
+.keepSectionContainer__note-input {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.keepSectionContainer__input-text,
+.keepSectionContainer__input-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.keepSectionContainer__input-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.colorContainer__inputKeep {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  justify-content: space-between;
+  height: 70px;
+}
+.note__colors {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.note__color-1,
+.note__color-2 {
+  border: none;
+  cursor: pointer;
+  width: 1.5625rem;
+  height: 1.5625rem;
+  border-radius: 100px;
+}
+@media (max-width: 768px) {
+  .keepSectionContainer__note {
+    width: 280px;
+  }
+}
